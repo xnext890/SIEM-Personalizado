@@ -1,0 +1,66 @@
+/* Tema oscuro estilo SOC (paleta inspirada en tokyonight-moon). */
+
+Screen {
+    background: #1a1c2e;
+    color: #c8d3f5;
+}
+
+StatsBar {
+    dock: top;
+    height: 1;
+    background: #16172b;
+    color: #c8d3f5;
+}
+
+#body {
+    height: 1fr;
+}
+
+EventStream {
+    width: 58%;
+    border: round #2f334d;
+    border-title-color: #82aaff;
+    border-title-style: bold;
+    background: #16172b;
+    padding: 0 1;
+    scrollbar-color: #2f334d;
+    scrollbar-background: #16172b;
+}
+
+#sidebar {
+    width: 42%;
+}
+
+AlertsTable {
+    height: 2fr;
+    border: round #2f334d;
+    border-title-color: #ff757f;
+    border-title-style: bold;
+    background: #16172b;
+    scrollbar-color: #2f334d;
+    scrollbar-background: #16172b;
+}
+
+AlertsTable > .datatable--header {
+    background: #16172b;
+    color: #636da6;
+    text-style: bold;
+}
+
+AlertsTable > .datatable--cursor {
+    background: #2f334d;
+}
+
+TopAttackers {
+    height: 9;
+    border: round #2f334d;
+    border-title-color: #ffc777;
+    border-title-style: bold;
+    background: #16172b;
+    padding: 1 0;
+}
+
+Footer {
+    background: #16172b;
+    color: #636da6;
+}
